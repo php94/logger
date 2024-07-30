@@ -1,0 +1,14 @@
+{
+    "name": "php94/logger",
+    "description": "psr3 logger实现~",
+    "type": "library",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "PHP94\\Logger\\": "src/"
+        }
+    },
+    "require": {
+        "psr/log": "^3.0"
+    }
+}
